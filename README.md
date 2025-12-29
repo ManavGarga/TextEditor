@@ -95,9 +95,9 @@ LIVEBLOCKS_SECRET_KEY=
 
 ## ▶️ Running Locally
 
-npm install
-npx convex dev
-npm run dev
+- npm install
+- npx convex dev
+- npm run dev
 
 
 Open **http://localhost:3000** in your browser.
