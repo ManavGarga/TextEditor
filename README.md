@@ -82,14 +82,11 @@ Built with **Next.js**, **Liveblocks**, **Convex**, **Clerk**, and **Tiptap**, t
 ## 🛠️ Environment Variables
 
 Create a `.env.local` file in the root directory:
-NEXT_PUBLIC_CONVEX_URL=
-CONVEX_DEPLOYMENT=
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-LIVEBLOCKS_SECRET_KEY=
-
+- NEXT_PUBLIC_CONVEX_URL=
+- CONVEX_DEPLOYMENT=
+- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+- CLERK_SECRET_KEY=
+- LIVEBLOCKS_SECRET_KEY=
 
 ---
 
