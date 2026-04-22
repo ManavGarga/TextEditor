@@ -1,6 +1,6 @@
 "use client";
 
-import { Separator } from "@/components/ui/separator";
+
 import { cn } from "@/lib/utils";
 import { useEditorStore } from "@/store/use-editor-store";
 
@@ -280,7 +280,7 @@ const ImageButton = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [imageUrl, setImageUrl] = useState("");
 
-  console.log(editor?.getAttributes("link").href, "TEST");
+
 
   const onChange = (src: string) => {
     editor?.chain().focus().setImage({ src }).run();
@@ -359,7 +359,7 @@ const LinkButton = () => {
   const { editor } = useEditorStore();
   const [value, setValue] = useState("");
 
-  console.log(editor?.getAttributes("link").href, "TEST");
+
 
   const onChange = (href: string) => {
     editor?.chain().focus().extendMarkRange("link").setLink({ href }).run();
@@ -443,11 +443,11 @@ const HeadingLevelButton = () => {
 
   const headings = [
     { label: "Normal text", value: 0, fontSize: "16px" },
-    { label: "Heding 1", value: 1, fontSize: "32px" },
-    { label: "Heding 2", value: 2, fontSize: "24px" },
-    { label: "Heding 3", value: 3, fontSize: "20px" },
-    { label: "Heding 4", value: 4, fontSize: "18px" },
-    { label: "Heding 5", value: 5, fontSize: "16px" },
+    { label: "Heading 1", value: 1, fontSize: "32px" },
+    { label: "Heading 2", value: 2, fontSize: "24px" },
+    { label: "Heading 3", value: 3, fontSize: "20px" },
+    { label: "Heading 4", value: 4, fontSize: "18px" },
+    { label: "Heading 5", value: 5, fontSize: "16px" },
   ];
 
   const getCurrentHeading = () => {
